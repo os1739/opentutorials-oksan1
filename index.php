@@ -1,6 +1,5 @@
 <?php
-var_dump($_GET['id']);
-var_dump($_GET['title']);
+
 // 1. 데이터베이스 서버에 접속
 $link=mysql_connect('localhost','root','dhrtks12');
 if(!$link) {
